@@ -10,6 +10,6 @@ class Calculadora:
         return num_1 * num_2
 
     def divide(self, num_1: float, num_2: float) -> float | str:
-        if num_2 == 0
+        if num_2 == 0:
             return "Cannot divide by zero"
         return num_1 / num_2
